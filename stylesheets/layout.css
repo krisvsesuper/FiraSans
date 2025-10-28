@@ -17,7 +17,7 @@ body::after {
   background-image: url("../images/maket.svg");
   width: 1440px;
   height: 6132px;
-  opacity: 0.2;
+  opacity: 0;
 }
 .firstscreen {
   position: relative;
@@ -45,14 +45,87 @@ body::after {
   height: 574px;
   background-color: white;
 }
-.textdva h1 {
+.textdva {
   position: absolute;
   font-size: 74px;
   font-style: Medium;
   font-weight: 500;
-  padding: 103px 246px;
+  padding: 100px 240px;
   text-align: left;
 }
+.besplat {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 100px 765px;
+  text-align: left;
+}
+.ynikal {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 185px 240px;
+  text-align: left;
+}
+.erika {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 185px 950px;
+  text-align: left;
+}
+.shpikermana {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 270px 240px;
+  text-align: left;
+}
+.on {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 270px 775px;
+  text-align: left;
+}
+.prostoy {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 270px 885px;
+  text-align: left;
+}
+.geom {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 360px 240px;
+  text-align: left;
+}
+.chet {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 360px 905px;
+  text-align: left;
+}
+.bezzas {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 450px 240px;
+  text-align: left;
+}
+
 .ramka {
   position: absolute;
   width: 1285px;
@@ -82,7 +155,7 @@ body::after {
   font-weight: 500;
   font-style: Medium;
   color: #d3112e;
-  padding: 46px 82px;
+  padding: 35px 82px;
 }
 .erikfoto {
   position: absolute;
@@ -96,7 +169,7 @@ body::after {
   font-weight: 400;
   font-style: Regular;
   color: black;
-  padding: 115px 82px;
+  padding: 110px 82px;
 }
 .fifthscreen {
   position: relative;
@@ -139,6 +212,7 @@ body::after {
   font-style: LightItalic;
   color: black;
   padding: 47px 783px;
+  width: 992.79px;
 }
 .name {
   position: absolute;
@@ -156,6 +230,14 @@ body::after {
   color: black;
   padding: 47px 1114px;
 }
+.nomercto {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: Italic;
+  color: black;
+  padding: 47px 1300px;
+}
 .erikfio {
   position: absolute;
   font-size: 40px;
@@ -163,6 +245,14 @@ body::after {
   font-style: Italic;
   color: black;
   padding: 108px 997px;
+}
+.shpiker {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: Italic;
+  color: black;
+  padding: 108px 1105px;
 }
 .sixthscreen {
   position: relative;
@@ -382,6 +472,30 @@ body::after {
   color: rgb(0, 0, 0);
   padding: 40px 665px;
 }
+.sans {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 40px 755px;
+}
+.podderzhivaet {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 40px 870px;
+}
+.ciffri {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 40px 1200px;
+}
 .boldd {
   position: absolute;
   font-size: 40px;
@@ -389,6 +503,22 @@ body::after {
   font-style: normal;
   color: rgb(0, 0, 0);
   padding: 133px 933px;
+}
+.chertka {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 133px 1020px;
+}
+.boold {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 133px 1060px;
 }
 .cifre {
   position: absolute;
@@ -414,6 +544,14 @@ body::after {
   color: rgb(0, 0, 0);
   padding: 455px 935px;
 }
+.shest {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 455px 995px;
+}
 .pres {
   position: absolute;
   font-size: 25px;
@@ -422,6 +560,14 @@ body::after {
   color: rgb(0, 0, 0);
   padding: 490px 935px;
 }
+.devyt {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 490px 1125px;
+}
 .rabota {
   position: absolute;
   font-size: 25px;
@@ -429,4 +575,156 @@ body::after {
   font-style: italic;
   color: rgb(0, 0, 0);
   padding: 527px 935px;
+}
+.v {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 527px 1075px;
+}
+.grupp {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 527px 1100px;
+}
+.na {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 527px 1185px;
+}
+.boss {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 527px 1220px;
+}
+.ninthscreen {
+  position: relative;
+  width: 1440px;
+  height: 632px;
+  background-color: white;
+}
+.glifi {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 30px 80px;
+}
+.s {
+  position: absolute;
+  font-size: 220px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 190px 150px;
+}
+.a {
+  position: absolute;
+  font-size: 180px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 200px 275px;
+}
+.black {
+  position: absolute;
+  font-size: 208px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 265px 715px;
+}
+.pupu {
+  position: absolute;
+  font-size: 208px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 265px 1125px;
+}
+.aa {
+  position: absolute;
+  font-size: 180px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 265px 930px;
+}
+.kartablack {
+  position: absolute;
+  width: 1049.62px;
+  height: 429.07px;
+  padding: 120px 80px;
+}
+.simblack {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 122px 85px;
+}
+.imypravlev {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 445px 90px;
+}
+.prest {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 483px 90px;
+}
+.rabotautvp {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 520px 90px;
+}
+.tenthscreen {
+  position: relative;
+  width: 1440px;
+  height: 948px;
+  background-color: white;
+}
+.rosysk {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 50px 170px;
+}
+.shrifta {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 50px 1035px;
+}
+.rozyysk {
+  position: absolute;
+  width: 543.57px;
+  height: 637px;
+  padding: 155px 180px;
 }
