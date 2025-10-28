@@ -728,3 +728,39 @@ body::after {
   height: 637px;
   padding: 155px 180px;
 }
+.twelfthscreen {
+  position: relative;
+  width: 1440px;
+  height: 109px;
+  background-color: white;
+}
+.tablica {
+  position: absolute;
+  width: 1280px;
+  height: 73px;
+  padding: 0px 80px;
+}
+.ya {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 20px 115px;
+}
+.dasha {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 20px 525px;
+}
+.gryppa {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 20px 1110px;
+}
