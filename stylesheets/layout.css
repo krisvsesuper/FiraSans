@@ -1,0 +1,432 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 6132px;
+  display: block;
+  margin: 0 auto;
+  font-family: "FiraSans";
+  position: relative;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/maket.svg");
+  width: 1440px;
+  height: 6132px;
+  opacity: 0.2;
+}
+.firstscreen {
+  position: relative;
+  width: 1440px;
+  height: 320px;
+  background-color: white;
+}
+.text {
+  font-family: "FiraSans";
+  font-weight: 900;
+  font-size: 96px;
+  color: #d3112e;
+  position: absolute;
+  padding: 48px 185px;
+  text-align: center;
+}
+.logo {
+  width: 300;
+  text-align: right;
+  padding: 170px 1020px;
+}
+.secondscreen {
+  position: relative;
+  width: 1440px;
+  height: 574px;
+  background-color: white;
+}
+.textdva h1 {
+  position: absolute;
+  font-size: 74px;
+  font-style: Medium;
+  font-weight: 500;
+  padding: 103px 246px;
+  text-align: left;
+}
+.ramka {
+  position: absolute;
+  width: 1285px;
+  text-align: center;
+  padding: 15px 80px;
+}
+.thirdscreen {
+  position: relative;
+  width: 1440px;
+  height: 904px;
+  background-color: white;
+}
+.doska {
+  position: absolute;
+  width: 1469.17px;
+  padding: 20px 169px;
+}
+.fourthscreen {
+  position: relative;
+  width: 1440px;
+  height: 223px;
+  background-color: white;
+}
+.erik {
+  position: absolute;
+  font-size: 47px;
+  font-weight: 500;
+  font-style: Medium;
+  color: #d3112e;
+  padding: 46px 82px;
+}
+.erikfoto {
+  position: absolute;
+  width: 504px;
+  height: 158px;
+  padding: 30px 867px;
+}
+.opisanie {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: Regular;
+  color: black;
+  padding: 115px 82px;
+}
+.fifthscreen {
+  position: relative;
+  width: 1440px;
+  height: 223px;
+  background-color: white;
+}
+.kryg {
+  position: absolute;
+  width: 154px;
+  height: 152px;
+  padding: 22px 80px;
+}
+.ksh {
+  position: absolute;
+  font-size: 88px;
+  font-weight: 600;
+  font-style: SemiBold;
+  color: #ff0000;
+  padding: 55px 93px;
+}
+.cledkom {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: Light;
+  color: black;
+  padding: 53px 252px;
+}
+.linii {
+  position: absolute;
+  width: 577px;
+  height: 118px;
+  padding: 35px 782px;
+}
+.number {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: LightItalic;
+  color: black;
+  padding: 47px 783px;
+}
+.name {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: Italic;
+  color: black;
+  padding: 108px 786px;
+}
+.nomer {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: Italic;
+  color: black;
+  padding: 47px 1114px;
+}
+.erikfio {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: Italic;
+  color: black;
+  padding: 108px 997px;
+}
+.sixthscreen {
+  position: relative;
+  width: 1440px;
+  height: 976px;
+  background-color: white;
+}
+.bykvam {
+  position: absolute;
+  width: 589px;
+  height: 965.41px;
+  padding: 100px 781px;
+}
+.liniitext {
+  position: absolute;
+  width: 58px;
+  height: 2364.29px;
+  padding: 120px 60px;
+}
+.nomerdva {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 80px 86px;
+}
+.imy {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 137px 86px;
+}
+.dolzhnoct {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 195px 86px;
+}
+.rost {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 255px 86px;
+}
+.gorod {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 315px 86px;
+}
+.prestyp {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 375px 86px;
+}
+.zaderzhan {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 438px 86px;
+}
+.mstr {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 137px 409px;
+}
+.glava {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 195px 418px;
+}
+.ctopisyt {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 255px 603px;
+}
+.bykv {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 315px 580px;
+}
+.vosemnadzat {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 375px 620px;
+}
+.data {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  padding: 435px 490px;
+}
+.otpechatki {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  padding: 615px 82px;
+}
+.seventhscreen {
+  position: relative;
+  width: 1440px;
+  height: 718px;
+  background-color: white;
+}
+.nachertaniya {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  padding: 40px 83px;
+}
+.ramkakartam {
+  position: absolute;
+  width: 80px;
+  height: 3409px;
+  padding: 190px 80px;
+}
+.medium {
+  position: absolute;
+  font-size: 180px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  padding: 305px 718px;
+}
+.mka {
+  position: absolute;
+  font-size: 280px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  padding: 240px 190px;
+}
+.mmedium {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 194px 90px;
+}
+.imytabl {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 520px 90px;
+}
+.prestypl {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 570px 90px;
+}
+.dolzh {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 615px 90px;
+}
+.eighthscreen {
+  position: relative;
+  width: 1440px;
+  height: 632px;
+  background-color: white;
+}
+.ramabold {
+  position: absolute;
+  width: 1231px;
+  height: 428.75px;
+  padding: 130px 130px;
+}
+.cifri {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 40px 665px;
+}
+.boldd {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 133px 933px;
+}
+.cifre {
+  position: absolute;
+  font-size: 160px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 240px 970px;
+}
+.cifr {
+  position: absolute;
+  font-size: 208px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  padding: 250px 205px;
+}
+.shisterki {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 455px 935px;
+}
+.pres {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 490px 935px;
+}
+.rabota {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  padding: 527px 935px;
+}
